@@ -26,6 +26,12 @@ importers:
 
   apps/web:
     dependencies:
+      '@fontsource-variable/geist':
+        specifier: ^5.2.6
+        version: 5.2.6
+      '@workspace/feature-auth':
+        specifier: workspace:*
+        version: link:../../packages/feature-auth
       '@workspace/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -102,6 +108,206 @@ importers:
       typescript-eslint:
         specifier: ^8.24.1
         version: 8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
+
+  packages/feature-auth:
+    dependencies:
+      '@workspace/ui':
+        specifier: workspace:*
+        version: link:../ui
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+    devDependencies:
+      '@tailwindcss/postcss':
+        specifier: ^4.0.8
+        version: 4.0.8
+      '@turbo/gen':
+        specifier: ^2.4.2
+        version: 2.4.2(@types/node@20.17.19)(typescript@5.7.3)
+      '@types/node':
+        specifier: ^20
+        version: 20.17.19
+      '@types/react':
+        specifier: ^19
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.0.4(@types/react@19.0.10)
+      '@workspace/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      tailwindcss:
+        specifier: ^4.0.8
+        version: 4.0.8
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
+
+  packages/feature-dashboard:
+    dependencies:
+      '@workspace/ui':
+        specifier: workspace:*
+        version: link:../ui
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+    devDependencies:
+      '@tailwindcss/postcss':
+        specifier: ^4.0.8
+        version: 4.0.8
+      '@turbo/gen':
+        specifier: ^2.4.2
+        version: 2.4.2(@types/node@20.17.19)(typescript@5.7.3)
+      '@types/node':
+        specifier: ^20
+        version: 20.17.19
+      '@types/react':
+        specifier: ^19
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.0.4(@types/react@19.0.10)
+      '@workspace/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      tailwindcss:
+        specifier: ^4.0.8
+        version: 4.0.8
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
+
+  packages/feature-goals:
+    dependencies:
+      '@workspace/ui':
+        specifier: workspace:*
+        version: link:../ui
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+    devDependencies:
+      '@tailwindcss/postcss':
+        specifier: ^4.0.8
+        version: 4.0.8
+      '@turbo/gen':
+        specifier: ^2.4.2
+        version: 2.4.2(@types/node@20.17.19)(typescript@5.7.3)
+      '@types/node':
+        specifier: ^20
+        version: 20.17.19
+      '@types/react':
+        specifier: ^19
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.0.4(@types/react@19.0.10)
+      '@workspace/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      tailwindcss:
+        specifier: ^4.0.8
+        version: 4.0.8
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
+
+  packages/feature-notes:
+    dependencies:
+      '@workspace/ui':
+        specifier: workspace:*
+        version: link:../ui
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+    devDependencies:
+      '@tailwindcss/postcss':
+        specifier: ^4.0.8
+        version: 4.0.8
+      '@turbo/gen':
+        specifier: ^2.4.2
+        version: 2.4.2(@types/node@20.17.19)(typescript@5.7.3)
+      '@types/node':
+        specifier: ^20
+        version: 20.17.19
+      '@types/react':
+        specifier: ^19
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.0.4(@types/react@19.0.10)
+      '@workspace/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      tailwindcss:
+        specifier: ^4.0.8
+        version: 4.0.8
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
+
+  packages/feature-tasks:
+    dependencies:
+      '@workspace/ui':
+        specifier: workspace:*
+        version: link:../ui
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+    devDependencies:
+      '@tailwindcss/postcss':
+        specifier: ^4.0.8
+        version: 4.0.8
+      '@turbo/gen':
+        specifier: ^2.4.2
+        version: 2.4.2(@types/node@20.17.19)(typescript@5.7.3)
+      '@types/node':
+        specifier: ^20
+        version: 20.17.19
+      '@types/react':
+        specifier: ^19
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.0.4(@types/react@19.0.10)
+      '@workspace/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      tailwindcss:
+        specifier: ^4.0.8
+        version: 4.0.8
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
   packages/typescript-config: {}
 
@@ -347,6 +553,9 @@ packages:
 
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
+
+  '@fontsource-variable/geist@5.2.6':
+    resolution: {integrity: sha512-Bt9pdD55Fojq4h9yFKQAzh5+Xj4tKFpwbcDzK6t5PPSH2GrjPoPqm6N8y+tK6vzwKZ9hHyaOz/tAbO9cQd9UFQ==}
 
   '@hookform/resolvers@5.0.1':
     resolution: {integrity: sha512-u/+Jp83luQNx9AdyW2fIPGY6Y7NG68eN2ZW8FOJYL+M0i4s49+refdJdOp/A9n9HFQtQs3HIDHQvX3ZET2o7YA==}
@@ -3396,6 +3605,8 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
 
   '@floating-ui/utils@0.2.9': {}
+
+  '@fontsource-variable/geist@5.2.6': {}
 
   '@hookform/resolvers@5.0.1(react-hook-form@7.56.4(react@19.0.0))':
     dependencies:

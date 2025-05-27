@@ -12,7 +12,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.2.6",
     "@workspace/ui": "workspace:*",
+    "@workspace/feature-auth": "workspace:*",
     "lucide-react": "^0.475.0",
     "next": "^15.2.3",
     "next-themes": "^0.4.4",
