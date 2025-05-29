@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@workspace/ui/globals.css";
 @source "../../../apps/**/*.{ts,tsx}";
 @source "../../../components/**/*.{ts,tsx}";
 @source "../**/*.{ts,tsx}";
