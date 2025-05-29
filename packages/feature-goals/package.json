@@ -1,7 +1,6 @@
 {
   "name": "@workspace/feature-goals",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
   "scripts": {
     "lint": "eslint . --max-warnings 0"

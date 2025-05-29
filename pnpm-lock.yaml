@@ -35,6 +35,12 @@ importers:
       '@workspace/feature-tasks':
         specifier: workspace:*
         version: link:../../packages/feature-tasks
+      '@workspace/feature-dashboard':
+        specifier: workspace:*
+        version: link:../../packages/feature-dashboard
+      '@workspace/feature-goals':
+        specifier: workspace:*
+        version: link:../../packages/feature-goals
       '@workspace/ui':
         specifier: workspace:*
         version: link:../../packages/ui
