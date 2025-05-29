@@ -1,24 +1,33 @@
 {
-    "name": "@workspace/feature-goals",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "@workspace/ui": "workspace:*",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0"
-    },
-    "devDependencies": {
-        "@tailwindcss/postcss": "^4.0.8",
-        "@turbo/gen": "^2.4.2",
-        "@types/node": "^20",
-        "@types/react": "^19",
-        "@types/react-dom": "^19",
-        "@workspace/eslint-config": "workspace:*",
-        "@workspace/typescript-config": "workspace:*",
-        "tailwindcss": "^4.0.8",
-        "typescript": "^5.7.3"
-    },
-    "exports": {
-        "./*": "./src/pages/*.tsx"
-    }
+  "name": "@workspace/feature-goals",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@workspace/ui": "workspace:*",
+    "lucide-react": "^0.475.0",
+    "next-themes": "^0.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.8",
+    "@turbo/gen": "^2.4.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "tailwindcss": "^4.0.8",
+    "typescript": "^5.7.3"
+  },
+  "exports": {
+    "./components/*": "./src/components/*.tsx",
+    "./pages/*": "./src/pages/*.tsx"
+  }
 }
