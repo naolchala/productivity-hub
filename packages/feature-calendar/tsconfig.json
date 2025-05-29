@@ -6,7 +6,7 @@
       "@/*": [
         "./src/*"
       ],
-      "@workspace/feature-goals/*": [
+      "@workspace/feature-calendar/*": [
         "./src/*"
       ]
     }
