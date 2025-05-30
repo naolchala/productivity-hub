@@ -2,3 +2,9 @@
 @source "../../../apps/**/*.{ts,tsx}";
 @source "../../../components/**/*.{ts,tsx}";
 @source "../**/*.{ts,tsx}";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global calendar-specific styles here */
